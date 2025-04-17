@@ -6,6 +6,11 @@
     --copy-small: 0.833rem;
     --copy-xsmall: 0.694rem;
 }
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
   
 h1, h2, h3, h4, h5, figure, p, ol, ul {
     margin: 0;
@@ -28,4 +33,31 @@ h1 {
 img {
     display: block;
     max-inline-size: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+}
+
+header {
+    grid-column: 2/-1;
+    grid-row: 1/2;
+}
+
+aside {
+    grid-column: 1/2;
+    grid-row: 1/-1;
+}
+
+main {
+    grid-column: 2/-1;
+    grid-row: 2/-1;
+}
+
+.debug {
+    background-color: #e37d7d80;
+    border: 1px dashed #c9616180;
+    padding: 10px;
 }
