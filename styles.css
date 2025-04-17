@@ -1,0 +1,31 @@
+:root {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #212121;
+    --copy-small: 0.833rem;
+    --copy-xsmall: 0.694rem;
+}
+  
+h1, h2, h3, h4, h5, figure, p, ol, ul {
+    margin: 0;
+}
+
+ol[role="list"], ul[role="list"] {
+    list-style: none;
+    padding-inline: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+h1 {
+    font-size: 2.986rem;
+}
+
+img {
+    display: block;
+    max-inline-size: 100%;
+}
