@@ -38,18 +38,17 @@ img {
     grid-template-rows: 1fr 2fr;
 }
 
-header {
-    grid-column: 2/-1;
-    grid-row: 1/2;
-}
-
 .sidebar {
     grid-column: 1/2;
     grid-row: 1/-1;
-    background-color: rgb(69,144,206);
+    background-color: #4590ce;
     padding: 20px;
     color: #fff;
     font-weight: bold;
+}
+
+.sidebar .icon {
+    fill: #fff;
 }
 
 .sidebar a {
@@ -99,15 +98,44 @@ nav span {
     font-size: var(--copy-large);
 }
 
+.header {
+    grid-column: 2/-1;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 20px 40px;
+}
+
+.search input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 50px;
+    background-color: #f0f0f0;
+}
+
 main {
     grid-column: 2/-1;
     grid-row: 2/-1;
 }
 
+.btn {
+    padding: 10px 30px;
+    font-size: var(--copy-small);
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+}
+
+.btn-primary {
+    background-color: #4590ce;
+    color: #fff;
+}
+
 .icon {
     width: 1.5rem;
     height: 1.5rem;
-    fill: #fff;
 }
 
 .debug {
