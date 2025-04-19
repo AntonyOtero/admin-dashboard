@@ -220,10 +220,6 @@ section .title {
     border-radius: 50px 0px 0px 50px;
 }
 
-.announcements .card {
-    padding: 20px;
-}
-
 .announcement {
     padding-bottom: 10px;
     margin-bottom: 10px;
@@ -243,6 +239,26 @@ section .title {
 
 .announcement-description {
     font-size: var(--copy-xsmall);
+    color: #686963;
+}
+
+.trending .card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.trending-user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: var(--copy-xsmall);
+}
+
+.trending-user .user-handle {
+    font-weight: bold;
+}
+.trending-user .user-project {
     color: #686963;
 }
 
@@ -276,9 +292,9 @@ section .title {
 }
 
 .card {
+    padding: 20px;
     border-radius: 10px;
     background-color: #fff;
-
     -webkit-box-shadow: 5px 5px 3px 0px rgb(218, 218, 218);
     -moz-box-shadow: 5px 5px 3px 0px rgb(218, 218, 218);
     box-shadow: 5px 5px 3px 0px rgb(218, 218, 218);
