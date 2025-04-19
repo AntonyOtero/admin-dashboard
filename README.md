@@ -1,3 +1,3 @@
 # admin-dashboard
 
-![Screenshot of Admin Dashboard project](./assets/Admin%20Dashboard.jpeg)
+![Screenshot of Admin Dashboard project](./assets/project-screenshot.jpeg)
